@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Navbar</title>
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        ul{
+            border-radius: 5px;
+            list-style-type: none;
+            background-color: rgb(101, 143, 241);
+            width: 1475px;
+            position: fixed;
+            top: 0;
+        }
+        li{
+            display: inline;
+            float: left;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0;
+        }
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin: 0;
+        }
+        li:hover{
+            background-color: rgb(106, 173, 236);
+        }
+        .image{
+            margin-top: 130px;
+        }
+        img{
+            height: 351px;
+            width: 374px;
+        }
+        .mytext{
+            padding: 40px;
+        }
+        .mytable{
+            margin-top: 20px;
+        }
+        table{
+            border-width: 3px;
+            border-radius: 5px;
+            background-color: rgb(237, 152, 122);
+        }
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#HOME">Home</a></li>
+        <li><a href="#NEWS">News</a></li>
+        <li><a href="#CONTACT">Contact</a></li>
+        <li><a href="#ABOUT">About</a></li>
+    </ul>
+<div class="main" align="center">
+        <div class="image">
+            <img src="../HTML/Mypic.jpg" alt="photo">
+        </div>
+       
+        <div class="mytext">
+            Hi, I'm Krishn! I'm passionate about technology and always eager to learn new things. Whether it's coding, problem-solving, or exploring creative ideas, I love taking on challenges. I enjoy working on C++ programming, especially tricky concepts like pointers, references, and type deduction. When I'm not coding, I like to dive into new tech trends and improve my skills. Looking forward to building and innovating more
+        </div>
+    <hr>
+    <div class="mytable">
+        <table border="1">
+            <th>Degree</th>
+            <th>Percentage/CGPA</th>
+            <th>Insitute</th>
+            <th>Passing year</th>
+            <tr>
+            <td>SSC(10TH)</td>
+            <td>85%</td>
+            <td>BAPS SVM</td>
+            <td>2022</td>
+            </tr>
+            <tr>
+            <td>HSC(12TH)</td>
+            <td>89.89%</td>
+            <td>BAPS SVM</td>
+            <td>2024</td>
+            </tr>
+            <tr>
+            <td>B.Tech</td>
+            <td>7.5</td>
+            <td>DDU</td>
+            <td>2028</td>
+            </tr>
+            </table>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+
